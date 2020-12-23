@@ -12,7 +12,7 @@
 export { Observable } from './src/internal/Observable.ts';
 export { ConnectableObservable } from './src/internal/observable/ConnectableObservable.ts';
 export { GroupedObservable } from './src/internal/operators/groupBy.ts';
-export { Operator } from './src/internal/Operator.ts';
+export type { Operator } from './src/internal/Operator.ts';
 export { observable } from './src/internal/symbol/observable.ts';
 export { animationFrames } from './src/internal/observable/dom/animationFrames.ts';
 
