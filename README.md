@@ -1,7 +1,7 @@
 # ![RxJS](https://github.com/ReactiveX/rxjs/raw/master/docs_app/assets/Rx_Logo_S.png) RxJS: Reactive Extensions for Deno | by [DenoBR](https://denobr.com)
 
 Reactive reactive library for JavaScript. This is a new version of [RxJS](https://github.com/ReactiveX/rxjs) and is a newer version ready for use RxJS on Deno. This recording should have better performance, better modularity, better debugable call stacks, remain mainly compatible with previous versions, with some changes that show the API surface.
- 
+
 ## Documentation
 [RxJS Deno site](http://www.rxjs.denobr.com)
 
@@ -19,7 +19,7 @@ Reactive reactive library for JavaScript. This is a new version of [RxJS](https:
 ## Using
 
 ```js
-import { Observable } from 'https://raw.githubusercontent.com/DenoBRComunitty/rxjs/master/mod.ts';
+import { Observable } from 'https://raw.githubusercontent.com/hackers267/rxjs/master/mod.ts';
 
 const observable = new Observable(subscriber => {
   subscriber.next(1);
