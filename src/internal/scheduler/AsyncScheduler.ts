@@ -1,7 +1,7 @@
 import { Scheduler } from '../Scheduler.ts';
 import { Action } from './Action.ts';
 import { AsyncAction } from './AsyncAction.ts';
-import { SchedulerAction } from '../types.ts';
+import type { SchedulerAction } from '../types.ts';
 import { Subscription } from '../Subscription.ts';
 
 export class AsyncScheduler extends Scheduler {

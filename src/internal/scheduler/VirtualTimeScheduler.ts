@@ -1,7 +1,7 @@
 import { AsyncAction } from './AsyncAction.ts';
 import { Subscription } from '../Subscription.ts';
 import { AsyncScheduler } from './AsyncScheduler.ts';
-import { SchedulerAction } from '../types.ts';
+import type { SchedulerAction } from '../types.ts';
 
 export class VirtualTimeScheduler extends AsyncScheduler {
 

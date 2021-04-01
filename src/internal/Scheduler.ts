@@ -1,6 +1,6 @@
 import { Action } from './scheduler/Action.ts';
 import { Subscription } from './Subscription.ts';
-import { SchedulerLike, SchedulerAction } from './types.ts';
+import type { SchedulerLike, SchedulerAction } from './types.ts';
 
 /**
  * An execution context and a data structure to order tasks and schedule their
